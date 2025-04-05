@@ -7,15 +7,20 @@
  <link rel="stylesheet" href="style.css">   
 </head>
 <body>
-<div class="container">
-  <h1>Generate a <br><span>Random password</span</h1>
 
-    <div class="display">
+<div class="container"> <!--Content for the all App-->
+  <h1>Generate a<br><span>Random password</span</h1>
+
+    <div class="display"> <!--display where the password will be generate by js-->
        <input type="text" id="password" placeholder="Password">
-       <img src="img/copy.png">
+       <img onclick="copyPassword()" src="img/copy.png">
    </div>
-    <button><img src="img/generate.png" alt=""> Generate Password</button>
+    <button onclick="createPassword()" id="generatebtn"><img src="img/generate.png" alt=""> Generate Password</button><!--btn addeventlistener-->
 </div>  
-
+<script src="script.js"></script>
 </body>
 </html>
+        <!--
+        * input ID= password: The box where the password will show up. readonly prevents user typing. id is its unique name for JS.
+        * ID= copyIcon: The copy image. id is its unique name for JS. alt text describes it.
+        * ID= generateBtn: The button to click. id is its unique name for JS.-->
