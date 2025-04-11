@@ -2,6 +2,8 @@
 
 This project is a basic password generator built while learning fundamental JavaScript concepts. It creates random passwords and includes a copy-to-clipboard feature.
 
+** Live Demo:** https://password-generator-dellabella.netlify.app/
+
 ## Key Things Learned:
 
 1.  **Connecting JavaScript to HTML:**
